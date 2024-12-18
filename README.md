@@ -14,8 +14,8 @@ We have also utilized parts of the code from the following repositories:
 
 The folder **“models”** includes Python codes with the names initiated with `network`, each corresponding to an evaluated network in our study:
 
-- `network_se.py`: Proposed network with CAS module including SE (+triplet loss)  
-- `network_eca.py`: Proposed network with CAS module including ECA (+triplet loss)  
+- `network_se.py`: Proposed network with CAS module including SE 
+- `network_eca.py`: Proposed network with CAS module including ECA 
 
 > **⚠️ Note:** Before running the training, rename the desired network file to `networks.py`.
 
