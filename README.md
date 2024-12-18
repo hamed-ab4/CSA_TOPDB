@@ -17,14 +17,9 @@ The folder **“models”** includes Python codes with the names initiated with 
 > **⚠️ Note:** Before running the training, rename the desired network file to `networks.py`.
 
 
-### Training Dukemtmc  
+### Training market1501  
 ```bash  
-python main_reid.py train --save_dir='./pytorch-ckpt/market-bfe' --max_epoch=420 --eval_step=30 --dataset=Dukemtmc --test_batch=64 --train_batch=64 --optim=adam --adjust_lr
+python main_reid.py train --save_dir='/content/out' --max_epoch=420 --eval_step=30 --dataset=market1501 --test_batch=64 --train_batch=64 --optim=adam --adjust_lr
 
-
-
-
-
-2-python main_reid.py train --save_dir='./pytorch-ckpt/market-bfe' --max_epoch=420 --eval_step=30 --dataset=market1501 --test_batch=64 --train_batch=64 --optim=adam --adjust_lr
 
 
