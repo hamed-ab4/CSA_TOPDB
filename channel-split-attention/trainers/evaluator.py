@@ -43,7 +43,7 @@ class ResNetEvaluator:
             plt.close(fig)
 
     def evaluate(self, queryloader, galleryloader, queryFliploader, galleryFliploader, 
-        ranks=[1, 2, 4, 5,8, 10, 16, 20], eval_flip=False, re_ranking=False, savefig=False):
+        ranks=[1, 5], eval_flip=False, re_ranking=False, savefig=False):
         self.model.eval()
         qf, q_pids, q_camids = [], [], []
         for inputs0, inputs1 in zip(queryloader, queryFliploader):
