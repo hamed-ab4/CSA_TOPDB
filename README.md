@@ -32,4 +32,5 @@ python main_reid.py train --save_dir='/content/out' --max_epoch=420 --eval_step=
  
 To test the network on the **Market1501** dataset, execute the following command:  
 ```bash  
-python main_reid.py train --save_dir='/content/out' --model_name=CSA_TOPDB --train_batch=64 --test_batch=64 --dataset=market1501 --pretrained_model='/content/out/model_best.pth.tar' --evaluate  ```
+python main_reid.py train --save_dir='/content/out' --model_name=CSA_TOPDB --train_batch=64 --test_batch=64 --dataset=market1501 --pretrained_model='/content/out/model_best.pth.tar' --evaluate
+```
