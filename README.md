@@ -5,10 +5,7 @@ The folder “models”  includes python codes with the names initiated with net
 
 ```bash 
 Steps to Train the Network:
-
 1-Rename the desired network file to networks.py.
 2-python main_reid.py train --save_dir='./pytorch-ckpt/market-bfe' --max_epoch=420 --eval_step=30 --dataset=market1501 --test_batch=64 --train_batch=64 --optim=adam --adjust_lr
-
-
 
 
