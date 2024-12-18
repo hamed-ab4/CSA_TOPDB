@@ -152,11 +152,11 @@ class CSA_TOPDB(nn.Module):
         self.base_4 = resnet.layer3
         self.base_5 = resnet.layer4   
 
-        self.att1 = SELayer(64,8)
-        self.att2 = SELayer(256,32)
-        self.att3 = SELayer(512,64)
-        self.att4 = SELayer(1024,128)
-        self.att5 = SELayer(2048,256)
+        self.att1 = eca_layer(64)
+        self.att2 = eca_layer(256)
+        self.att3 = eca_layer(512)
+        self.att4 = eca_layer(1024)
+        self.att5 = eca_layer(2048)
 
         self.att_s1=CSA(64,int(64/self.radix),radix=self.radix)
         self.att_s2=CSA(256,int(256/self.radix),radix=self.radix)
