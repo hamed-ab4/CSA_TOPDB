@@ -1,6 +1,7 @@
 ## Code Dependencies and References
 
-The codes in this repository were developed based on a network, whose original implementation is available [here](https://github.com/daizuozhuo/batch-dropblock-network).
+The codes in this repository were developed based on a network, whose original implementation is accessible at the following link: [https://github.com/daizuozhuo/batch-dropblock-network](https://github.com/daizuozhuo/batch-dropblock-network).
+
 
 
 
