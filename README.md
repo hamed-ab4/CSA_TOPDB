@@ -3,6 +3,7 @@ The folder “models”  includes python codes with the names initiated with net
 •	network_se.py: proposed network with CAS module including SE (+triplet loss)
 •	network_eca.py: proposed network with CAS module including ECA (+triplet loss)
 
+```bash 
 Steps to Train the Network:
 
 1-Rename the desired network file to networks.py.
