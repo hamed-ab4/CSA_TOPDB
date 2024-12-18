@@ -21,5 +21,3 @@ The folder **“models”** includes Python codes with the names initiated with 
 ```bash  
 python main_reid.py train --save_dir='/content/out' --max_epoch=420 --eval_step=30 --dataset=market1501 --test_batch=64 --train_batch=64 --optim=adam --adjust_lr
 
-
-
