@@ -28,6 +28,7 @@ To train the network, execute this line:
 python main_reid.py train --save_dir='/content/out' --max_epoch=420 --eval_step=30 --dataset=market1501 --test_batch=64 --train_batch=64 --optim=adam --adjust_lr
 
 
+
 ### Testing Market1501  
 
 To test the network on the **Market1501** dataset, execute the following command:  
