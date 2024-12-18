@@ -20,7 +20,11 @@ The folder **“models”** includes Python codes with the names initiated with 
 
 
 
-### Training market1501  
+### Training Market1501  
+
+To train the network, execute this line:  
+
 ```bash  
-python main_reid.py train --save_dir='/content/out' --max_epoch=420 --eval_step=30 --dataset=market1501 --test_batch=64 --train_batch=64 --optim=adam --adjust_lr
+python main_reid.py train --save_dir='/content/out' --max_epoch=420 --eval_step=30 --dataset=market1501 --test_batch=64 --train_batch=64 --optim=adam --adjust_lr  
+
 
