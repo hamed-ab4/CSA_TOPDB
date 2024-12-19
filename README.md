@@ -19,7 +19,17 @@ The folder **“models”** includes Python codes with the names initiated with 
 
 > **⚠️ Note:** Before running the training, rename the desired network file to `networks.py`.
 
+### Customizing and Evaluating Network Components  
 
+To better understand the impact of specific components on the network's performance, you can selectively disable certain features by removing them (commenting out the corresponding code). Below are some examples:  
+
+- **Disabling the Regularization Branch**:  
+  In the `network` module, locate the section labeled `# third branch`. By removing the lines (commenting them out) in this section, you can evaluate the effect of excluding the regularization branch on the network's training and performance.  
+
+- **Adjusting the Loss Function**:  
+  The network uses a combination of Softmax loss and Triplet loss, defined in the `main_reid.py` module. You can remove (comment out) the lines corresponding to each loss function to analyze their individual contributions to the network's learning process.  
+
+This approach allows for flexible experimentation, enabling you to adapt the network structure and loss functions to suit your research requirements.  
 
 ### Training Market1501 
 
