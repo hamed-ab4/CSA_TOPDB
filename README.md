@@ -24,7 +24,7 @@ The folder **“models”** includes Python codes with the names initiated with 
 To better understand the impact of specific components on the network's performance, you can selectively disable certain features by removing them (commenting out the corresponding code). Below are some examples:  
 
 - **Disabling the Regularization Branch**:  
-  In the `network` module, locate the section labeled `# third branch`. By removing the lines (commenting them out) in this section, you can evaluate the effect of excluding the regularization branch on the network's training and performance.  
+In the network module, locate the section labeled # third branch. By removing the lines (commenting them out) in this section, you can evaluate the effect of excluding the regularization branch on the network's training and performance. Similarly, for analyzing the impact of the global branch, you can follow the same approach by identifying and removing (commenting out) the lines corresponding to the global branch.
 
 - **Adjusting the Loss Function**:  
   The network uses a combination of Softmax loss and Triplet loss, defined in the `main_reid.py` module. You can remove (comment out) the lines corresponding to each loss function to analyze their individual contributions to the network's learning process.  
