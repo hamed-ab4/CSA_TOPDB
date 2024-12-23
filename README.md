@@ -31,6 +31,20 @@ In the network module, locate the section labeled # third branch. By removing th
 
 This approach allows for flexible experimentation, enabling you to adapt the network structure and loss functions to suit your research requirements.  
 
+# Dataset Information
+
+This project uses multiple publicly available datasets commonly used for person re-identification tasks. Below is a list of the datasets and their access information:
+
+## Datasets Used
+
+### Market1501 and DukeMTMC
+These datasets can be downloaded from Kaggle.
+
+### CUHK03-l and CUHK03-d
+These datasets are available through the following Google Drive link:
+
+- [Download CUHK03-l and CUHK03-d](https://drive.google.com/file/d/1pBCIAGSZ81pgvqjC-lUHtl0OYV1icgkz/view)
+
 
 ### Training Market1501 
 
