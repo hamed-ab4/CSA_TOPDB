@@ -61,8 +61,9 @@ python main_reid.py train --save_dir='/content/out' --model_name=CSA_TOPDB --tra
 - (https://doi.org/10.5281/zenodo.14546108)
 
 ## Citation 
-If you use this code in your research, please cite the following work:
-Hamed Abdollahi and Neda Faraji, "Channel Splitting Attention for Enhanced Person Re-Identification," submitted to Visual Computer, 2024.
-You can also provide a link to this repository in your work:
-https://github.com/hamed-ab4/CSA_TOPDB
+If you use this code in your research, please cite the following work:  
+Hamed Abdollahi and Neda Faraji, "Channel Splitting Attention for Enhanced Person Re-Identification," submitted to Visual Computer, 2024.  
+You can also provide a link to this repository in your work:  
+https://github.com/hamed-ab4/CSA_TOPDB  
+
 
